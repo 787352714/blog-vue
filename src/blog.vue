@@ -4,14 +4,14 @@
       <router-link class="logo" to="/home" tag="span">
         <div class="iconfont">&#xe642;</div>
       </router-link>
-      <div class="search">
+      <router-link class="search" to="/search" tag="div">
         <span>
           <span class="search-font">搜索</span>
         </span>
         <span class="search-link">
           <span class="search-box"></span>
         </span>
-      </div>
+      </router-link>
       <div class="login">
         <span>登陆</span>
       </div>
@@ -22,11 +22,11 @@
         <hr>
         <router-link class="font" tag="li" to="/font">前端</router-link>
         <hr>
-        <li class="python">Python</li>
+        <router-link class="python" tag="li" to="/python">python</router-link>
         <hr>
-        <li class="algorithm">算法与数据结构</li>
+        <router-link class="algorithm" tag="li" to="/algorithm">算法与数据结构</router-link>
         <hr>
-        <li class="other">其他</li>
+        <router-link class="other" tag="li" to="/other">其他</router-link>
       </ul> 
         <router-view class="view"></router-view>
     </div>
